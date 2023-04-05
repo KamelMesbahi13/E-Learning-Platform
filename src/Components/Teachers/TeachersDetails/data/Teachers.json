@@ -1,0 +1,135 @@
+[
+  {
+    "id": 1,
+    "image": "../../../../src/Assets/FrenchTeacher.jpg",
+    "job": "French Teacher",
+    "job_fr": "Enseignant de français",
+    "job_ar": "استاذ لغة فرنسية",
+
+    "name": "Tafat Bouzid Riad",
+    "name_fr": "Tafat Bouzid Riad",
+    "name_ar": "رياض تفات بوزيد",
+
+    "introduction": "French language teacher for the 3 cycles, known for his explanatory method based on lesson summary and simplification.",
+    "introduction_fr": "Enseignant de langue française pour les 3 cycles, connu par sa méthode d'explication basée sur le resumé de la leçon ainsi que la simplification.",
+    "introduction_ar": "مدرس للغة الفرنسية للاطوار الثلاثة، معروف بأسلوبه التوضيحي المبني على ملخص الدرس والتبسيط.",
+
+    "description": "Since March 2021, Riad TAFAT BOUZID has dedicated all his time to teaching and has proven himself in school support courses as well as level courses, known for his simple method that targets the majority of categories. Today, thanks to his experience and mastery of the French language, we hope for the best for the students of our platform with his educational videos.",
+    "description_fr": "Depuis Mars 2021, Riad TAFAT BOUZID, a consacré tout son temps à l'enseignement et a fait ses preuves dans les cours de soutien scolaire ainsi que les cours de niveau, connu pour sa méthode simple et qui touche la majorité des catégories. Aujourd'hui grâce à son expérience et sa maîtrise de la langue française, nous espérons le meilleur pour les élèves de notre plateforme avec ses vidéos .",
+    "description_ar": "منذ مارس 2021، كرّس رياض تافات بوزيد كل وقته للتدريس وأثبت نفسه في دورات الدعم الدراسي ودورات المستوى، حيث يعرف بأسلوبه البسيط الذي يستهدف غالبية الفئات. اليوم، وبفضل خبرته وإتقانه للغة الفرنسية، نأمل في الأفضل لطلاب منصتنا من خلال مقاطع الفيديو التعليمية التي يقدمها.",
+
+    "age": 24,
+    "phone": "0000.00.00.00",
+    "email": "janedoe@gmail.com",
+    "instagram": "https://www.instagram.com",
+    "facebook": "https://www.facebook.com",
+    "twitter": "https://www.twitter.com"
+  },
+
+  {
+    "id": 2,
+    "image": "../../../../src/Assets/TeacherWoman.jpeg",
+    "job": "Arabic Teacher",
+    "job_fr": "Enseignante de langue arabe ",
+    "job_ar": "اساذة اللغة العربية",
+
+    "name": "LAZRI celia",
+    "name_fr": "LAZRI Célia",
+    "name_ar": "العزري سيليا",
+
+    "introduction": "LAZRI Celia, Arabic language teacher, 22 years old. Celia is known as a teacher for her excellent mastery of the Arabic language as well as her great ability to make the class fun and engaging. Nothing is difficult when it's learned while having fun.",
+    "introduction_fr": "LAZRI Célia Enseignante de langue arabe Âge 22 ans Célia est une enseignante connue pour son excellente maîtrise de la langue arabe ainsi que sa belle animation du cours, rien n'est dur quand on l'apprend en s'amusant.",
+    "introduction_ar": "العزري سيليا، معلمة لغة عربية، عمرها 22 عامًا. تشتهر سيليا كمعلمة بإتقانها للغة العربية بالإضافة إلى تميزها في تنشيط الحصة، فلا شيء صعب عندما يتم تعلمه بطريقة ممتعة.",
+
+    "description": "Everyone knows that the Arabic language is one of the richest languages that have existed. If you have difficulty mastering its rules, you are in the right platform. Mrs. LAZRI does her best from the beginning of teaching to simplify its concepts and teach them in the simplest ways possible. She is particularly known for her beautiful presentation of the course, as nothing is difficult when you learn while having fun. Since 2020, Mrs. LAZRI has ensured the good understanding of her students, no matter the difficulty of the lesson, she will make sure to simplify it.",
+    "description_ar": "الجميع يعلم أن اللغة العربية هي واحدة من أغنى اللغات التي عرفتها التاريخ، إذا كنت تواجه صعوبة في إتقان قواعدها، فأنت في المكان المناسب. تعمل السيدة العزري بكل جهدها منذ بداياتها في التدريس لتبسيط مفاهيم اللغة العربية وتعليمها بأسهل الطرق الممكنة. وهي تشتهر بشكل خاص بتميزها في تنشيط الحصة، فلا شيء صعب عندما يتم تعلمه بطريقة ممتعة. منذ عام 2020، تضمنت السيدة لازري فهم جيد لطلابها، مهما كانت صعوبة الدرس، سوف تبذل كل جهدها لتبسيطه.",
+
+    "age": 22,
+    "phone": "0000.00.00.00",
+    "email": "janedoe@gmail.com",
+    "instagram": "https://www.instagram.com",
+    "facebook": "https://www.facebook.com",
+    "twitter": "https://www.twitter.com"
+  },
+
+  {
+    "id": 3,
+    "image": "../../../../src/Assets/TeacherWoman.jpeg",
+    "job": "Science Teacher",
+    "job_fr": "Enseignante de sciences de la nature et de la vie",
+    "job_ar": "اساذة العلوم الطبيعية والحياة",
+
+    "name": "BENLAMRI Houda",
+    "name_fr": "BENLAMRI Houda",
+    "name_ar": "بن العامري هدى",
+
+    "introduction": "Madame BENLAMRI is known for her method based on oral explanation followed by schematization.",
+    "introduction_fr": "Madame BENLAMRI connue par sa méthode basée sur l'explication à l'oral puis la schématisation.",
+    "introduction_ar": "السيدة بن العمري معروفة بأسلوبها المبني على التوضيح الشفوي ثم التنظيم الهيكلي.",
+
+    "description": "Given the demanding programme of natural and life sciences, it is essential to summarize the course material effectively, which is where Mrs. BENLAMRI comes in. As a medical student with a passion for natural and life sciences, Houda prepares the best summaries of her subject matter and explains them in the most concise way possible, based on oral explanations and diagramming of the learned concepts.",
+    "description_fr": "Vu le programme de sciences de la nature et de la vie connu par sa charge importante, il est essentiel de bien résumer le cours, c'est là où intervient Mme.BENLAMRI. Étudiante en médecine et passionnée par les sciences de la nature et de la vie, Houda prépare les meilleurs résumés de sa matière et les explique de la plus brève des manières en se basant sur l'oral puis la schématisation des connaissances apprises.",
+    "description_ar": "بالنظر إلى المنهج الشاق للعلوم الطبيعية والحياتية، من الضروري تلخيص مواد الدورة بفعالية، وهذا حيث تأتي السيدة بن العامري. كطالبة في الطب وبشغفها للعلوم الطبيعية والحياتية، تعد هدى أفضل ملخصات المادة الدراسية وتشرحها بأسلوب موجز بناءً على الشرح الشفوي ورسم المفاهيم المتعلمة.",
+
+    "age": 23,
+    "phone": "0000.00.00.00",
+    "email": "janedoe@gmail.com",
+    "instagram": "https://www.instagram.com",
+    "facebook": "https://www.facebook.com",
+    "twitter": "https://www.twitter.com"
+  },
+
+  {
+    "id": 4,
+    "image": "../../../../src/Assets/ManTeacher.jpeg",
+    "job": "Mathematics Teacher",
+    "job_fr": "Enseignant de mathématiques",
+    "job_ar": "استاذ الرياضيات",
+
+    "name": "DOUAK Rayane",
+    "name_fr": "DOUAK Rayane",
+    "name_ar": "دواك ريان",
+
+    "introduction": "Douak Rayane Mathematics teacher, 21 years old. Graduated in automation and industrial computer science, Rayane provides his students with the best examples to illustrate mathematical situations where they encounter obstacles.",
+    "introduction_fr": "Douak Rayane Enseignant de mathématiques Diplômé en automatique et informatique industrielle, Rayane procure à ses élèves les meilleurs exemples pour illustrer les situations mathématiques où ils trouvent des obstacles",
+    "introduction_ar": "دواك ريان مدرس الرياضيات ، 21 عامًا. حاصل على درجة في الأتمتة والحاسوب الصناعي ، يوفر ريان لطلابه أفضل الأمثلة لتوضيح الحالات الرياضية التي يواجهون فيها العقبات.",
+
+    "description": "Graduated from the University of Boumerdes in Automatics and Industrial Computing, DOUAK Rayane is passionate about mathematics and has made it his profession since the year 2022, which has been very successful among his students, especially BEM candidates. According to Rayane, mathematics is a subject that has never been difficult, you just need to approach it from the right angle, and he will ensure that through his videos.",
+    "description_fr": "Diplômé de l'université de Boumerdes en automatique et informatique industrielle, DOUAK Rayane est un passionné des mathématiques et en a fait son métier depuis l'année 2022 et qui connait un très grand succès chez ses élèves surtout les candidats du BEM. Selon Rayane, les mathématiques sont une matière qui n'a jamais été difficile, il faut juste la voir du bon angle, c'est ce qu'il vous assurera à travers ses vidéos .",
+    "description_ar": "تخرج دواك ريان من جامعة بومرداس في الأتمتة والحوسبة الصناعية، وهو مولع بالرياضيات وجعلها مهنته منذ عام 2022، والتي حققت نجاحًا كبيرًا بين طلابه، وخاصة المترشحين لامتحان شهادة التعليم المتوسط. وبحسب ريان، فإن الرياضيات لم تكن أبدًا موضوعًا صعبًا، فما عليك سوى التقرب منها بالطريقة الصحيحة وهذا ما سيحاول فعله عبر الفيديوهات",
+
+    "age": 21,
+    "phone": "0000.00.00.00",
+    "email": "janedoe@gmail.com",
+    "instagram": "https://www.instagram.com",
+    "facebook": "https://www.facebook.com",
+    "twitter": "https://www.twitter.com"
+  },
+
+  {
+    "id": 5,
+    "image": "../../../../src/Assets/TeacherWoman.jpeg",
+    "job": "English Teacher",
+    "job_fr": "Enseignante de langue anglaise",
+    "job_ar": "اساذة اللغة الانجليزية",
+
+    "name": "Yasmine BEKRI",
+    "name_fr": "Yasmine BEKRI",
+    "name_ar": "ياسمين بكري ",
+
+    "introduction": "To teach the language of Shakespeare you really have to love it. Yasmine BEKRI, PhD student in literature and English language will make you love this language.",
+    "introduction_fr": "Pour enseigner la langue de Shakespeare il faut vraiment l'aimer. Yasmine BEKRI, doctorante en littérature et langue anglaise vous fera aimer cette langue.",
+    "introduction_ar": "لتعليم لغة شكسبير عليك حقا أن تحبها. ياسمين بيكري ، طالبة دكتوراه في الأدب واللغة الإنجليزية ستجعلك تحب هذه اللغة",
+
+    "description": "Une langue étrangère ça demande toujours de la concentration, entre l'expression et la compréhension de l'écrit ce n'est pas évident de simplifier la tâche à l'élève. BEKRI Yasmine s'appuie dans sa méthode sur l'apprentissage du vocabulaire, visant à enseigner la grammaire, la conjugaison, le vocabulaire tout en améliorant le niveau de parlé de l'élève vu son expérience dans les cours de niveau au CEIL de l'université de Boumerdes et au sein de l'école informica.",
+    "description_fr": "A foreign language always requires concentration, between expression and reading comprehension it is not easy to simplify the task for the student. BEKRI Yasmine relies in here method on vocabulary learning, aiming to teach grammar, conjugation, vocabulary while improving the level of speech of the student given his experience in the level courses at the CEIL of the University of Boumerdes and within the informica school.",
+    "description_ar": "تتطلب اللغة الأجنبية دائما التركيز ، بين التعبير وفهم القراءة ، ليس من السهل تبسيط المهمة للطالب. تعتمد بكري ياسمين في طريقتها على تعلم المفردات ، بهدف تعليم القواعد والتصريف والمفردات مع تحسين مستوى خطاب الطالب نظرا لخبرته في دورات المستوى في CEIL بجامعة بومرداس وداخل مدرسة المعلومات.",
+
+    "age": 27,
+    "phone": "0000.00.00.00",
+    "email": "janedoe@gmail.com",
+    "instagram": "https://www.instagram.com",
+    "facebook": "https://www.facebook.com",
+    "twitter": "https://www.twitter.com"
+  }
+]

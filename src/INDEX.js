@@ -1,0 +1,17 @@
+export { default as Home } from './Components/Home/Home';
+export { default as Teachers } from './Components/Teachers/Home';
+export { default as TeachersDetails } from './Components/Teachers/TeachersDetails/TeacherDetails';
+export { default as Login } from './Components/Login/Login';
+export { default as Up } from './Components/Ui/Up/Up';
+export { default as TranslateIcon } from './Components/Ui/TranslateIcon/TranslateIcon';
+export { default as AboutUs } from './Components/About-Us/Home';
+export { default as ContactUs } from './Components/Contact-Us/Home';
+export { default as Blog } from './Components/Blog/Home';
+export { default as BlogDetails } from './Components/Blog/BlogDetails/BlogDetails';
+export { default as Courses } from './Components/Courses/Home';
+export { default as CourseDetails } from './Components/Courses/CourseDetails/CourseDetails';
+export { default as Faq } from './Components/Faq/Home';
+export { default as Error } from './Components/404Error/Error';
+export { default as Navbar } from './Components/Navbar/Navbar';
+export { default as Footer } from './Components/Footer/Footer';
+export { default as SignUp } from './Components/SignUp/SignUp';

@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "question": "How can I register for MENDAREK?",
+    "question_fr": "Comment puis-je m'inscrire à MENDAREK ?",
+    "question_ar": "كيف يمكنني التسجيل في من دارك؟",
+
+    "response": "To register for MENDAREK, go to our registration page and fill out the online registration form. You will need to provide certain basic information such as your name, email address, and password",
+    "response_fr": "Pour vous inscrire à MENDAREK, rendez-vous sur notre page d'inscription et remplissez le formulaire d'inscription en ligne. Vous devrez fournir certaines informations de base, telles que votre nom, votre adresse e-mail et votre mot de passe.",
+    "response_ar": "للتسجيل في من دارك، انتقل إلى صفحة التسجيل لدينا واملأ نموذج التسجيل عبر الإنترنت. ستحتاج إلى توفير بعض المعلومات الأساسية مثل اسمك وعنوان بريدك الإلكتروني وكلمة المرور."
+  },
+
+  {
+    "id": 2,
+    "question": "What types of courses are available on MENDAREK?",
+    "question_fr": "Quels types de cours sont disponibles sur MENDAREK ?",
+    "question_ar": "ما هي أنواع الدورات المتاحة على من دارك؟",
+
+    "response": "MENDAREK offers a wide range of online support courses in the form of recorded videos accompanied with solved topics videos for different school levels and subjects. Our courses are taught by qualified and experienced teachers and cover subjects such as mathematics, science, French language, philosophy, etc.",
+    "response_fr": "MENDAREK propose une large gamme de cours de soutien en ligne sous forme de videos accompagnés avec des sujets corrigés en video toujours pour différents niveaux scolaires et matières. Nos cours sont dispensés par des enseignants qualifiés et expérimentés, et couvrent des sujets tels que les mathématiques, les sciences, la langue française, la philosophie, etc.",
+    "response_ar": "يقدم من دارك مجموعة واسعة من دورات الدعم عبر الإنترنت في شكل فيديوهات مسجلة ترافقها فيديوهات حلول المواضيع لمختلف المستويات المدرسية والمواد. يتم تقديم دروسنا من قبل معلمين مؤهلين وذوي خبرة، وتغطي المواضيع مثل الرياضيات والعلوم واللغة الفرنسية والفلسفة، إلخ."
+  },
+
+  {
+    "id": 3,
+    "question": "Are there any scheduled live tests that we can take to test our level?",
+    "question_fr": "Est-ce qu'il y a des tests en direct programmées qu'on pourra passer afin de tester notre niveau?",
+    "question_ar": "هل هناك اختبارات مباشرة مجدولة يمكننا إجراؤها لاختبار مستوانا؟",
+
+    "response": "Yes, after uploading the courses of your school level, you can be subjected to one or more scheduled tests on specific dates to test your level.",
+    "response_fr": "Oui certainement, après avoir mis en ligne les cours de votre niveau scolaire vous pouvez etre soumis à un ou plusieurs tests programmés à des dates précises pour tester votre niveau.",
+    "response_ar": "نعم، بعد مشاهدة فيديوهات مستواك الدراسي، يمكنك أن تخضع لاختبارات مجدولة واحدة أو أكثر في تواريخ محددة لاختبار مستواك."
+  },
+
+  {
+    "id": 4,
+    "question": "How can I access my courses on MENDAREK?",
+    "question_fr": "Comment puis-je accéder à mes cours sur MENDAREK ?",
+    "question_ar": "كيف يمكنني الوصول إلى دروسي على من دارك؟",
+
+    "response": "Once you are registered on MENDAREK, you can access all courses by logging in to your account. You will see a list of all courses and can access them by clicking on the course you want to follow.",
+    "response_fr": "Une fois que vous etes inscrit sur MENDAREK, vous pouvez accéder à la totalité des cours en vous connectant à votre compte. Vous verrez une liste de tous les cours et pourrez pourrez y accéder en cliquant sur le cours que vous souhaitez suivre.",
+    "response_ar": "بمجرد تسجيلك في من دارك، يمكنك الوصول إلى جميع الدروس من خلال تسجيل الدخول إلى حسابك. سترى قائمة بجميع الدروس ويمكنك الوصول إليها عن طريق النقر على الدرس الذي تريد متابعته."
+  },
+
+  {
+    "id": 5,
+    "question": "Are the videos accessible at any time?",
+    "question_fr": "Comment puis-je contacter un enseignant de MENDAREK ?",
+    "question_ar": "هل الفيديوهات متاحة في أي وقت؟",
+
+    "response": "Yes, all videos on MENDAREK are accessible at any time and from anywhere, as long as you have an internet connection",
+    "response_fr": "Si vous avez une question ou que vous voulez demander un renseignement de la part d'un enseignant de  MENDAREK, vous pouvez le contacter en lui envoyant un e-mail, l'email de l'enseignant est affiché dans son profil d'enseignant MENDAREK.",
+    "response_ar": "نعم، جميع الفيديوهات على من دارك متاحة في أي وقت ومن أي مكان ، طالما لديك اتصال بالإنترنت."
+  },
+
+  {
+    "id": 6,
+    "question": "How can I contact a MENDAREK teacher?",
+    "question_fr": "Est-ce que les vidéos sont accessibles à tout moment ?",
+    "question_ar": "كيف يمكنني التواصل مع أستاذ في من دارك؟",
+    "response": "If you have a question or want to ask a teacher for information on MENDAREK, you can contact them by sending them an email. The teacher's email is displayed in their MENDAREK teacher profile.",
+    "response_fr": " Oui, toutes les vidéos sur MENDAREK sont accessibles à tout moment et de n'importe où, tant que vous avez une connexion internet.",
+    "response_ar": "إذا كان لديك سؤال أو ترغب في طرح استفسار على مدرس في من دارك، يمكنك التواصل معه عن طريق إرسال بريد إلكتروني إليه. يتم عرض بريد(ايمايل) الأستاذ في ملفه الشخصي على منصة من دارك."
+  }
+]

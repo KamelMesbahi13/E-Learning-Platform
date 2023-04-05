@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "image": "../src/Assets/TeacherWoman.jpeg",
+
+    "name": "Fatima Zohra Brahimi",
+    "name_fr": "Fatima Zohra Brahimi",
+    "name_ar": "فاطمة الزهراء براهيمي",
+
+    "opinion": "I was struggling to keep up with my classes, but MENDAREK saved the day! The video lectures were incredibly helpful and allowed me to learn at my own pace. Highly recommend!",
+    "opinion_fr": "J'avais du mal à suivre mes cours, mais MENDAREK a sauvé la journée ! Les vidéos de cours étaient incroyablement utiles et m'ont permis d'apprendre à mon propre rythme. Je recommande fortement !",
+    "opinion_ar": "كنت أواجه صعوبة في متابعة دروسي، ولكن من دارك أنقذ الأمر! كانت الفيديوهات مفيدة بشكل لا يصدق وسمحت لي بالتعلم بالسرعة التي أريدها. أوصي بها بشدة"
+  },
+
+  {
+    "id": 2,
+    "image": "../src/Assets/ManTeacher.jpeg",
+
+    "name": "Abdullah Al-Farouq",
+    "name_fr": "Abdullah Al-Farouq",
+    "name_ar": "عبدالله الفاروق",
+
+    "opinion": "MENDAREK is a game-changer for anyone who wants to learn. The platform is easy to use and the videos are well-structured, making it easy to follow along. I would definitely recommend this to anyone who wants to improve their knowledge and skills",
+    "opinion_fr": "MENDAREK est une véritable révolution pour quiconque veut apprendre. La plateforme est facile à utiliser et les vidéos sont bien structurées, ce qui facilite leur suivi. Je recommanderais définitivement cela à toute personne souhaitant améliorer ses connaissances et compétences",
+    "opinion_ar": "من دارك هي حل نهائي لأي شخص يريد التعلّم. المنصة سهلة الاستخدام والفيديوهات مُنظّمة بشكل جيد، مما يجعل من السهل متابعتها. بالتأكيد، أنصح بها لأي شخص يريد تحسين معرفته ومهاراته"
+  },
+
+  {
+    "id": 3,
+    "image": "../src/Assets/ManTeacher.jpeg",
+    "name": "Karim Bouchama",
+    "name_fr": "Karim Bouchama",
+    "name_ar": "كريم بوشامة",
+
+    "opinion": "I was hesitant to try MENDAREK at first, but I'm so glad I did. The videos are engaging and the teachers are passionate about their subjects. I feel much more confident in my abilities now!",
+    "opinion_fr": "J'hésitais à essayer MENDAREK au début, mais je suis tellement content de l'avoir fait. Les vidéos sont captivantes et les enseignants sont passionnés par leur sujet. Je me sens beaucoup plus confiant dans mes compétences maintenant !",
+    "opinion_ar": "كنت مترددًا في تجربة من دارك في البداية، ولكنني سعيد جدًا لأنني فعلت ذلك. الفيديوهات جذابة والمعلمون متحمسون في مواد تدريسهم. أشعر بثقة أكبر الآن في قدراتي!"
+  },
+
+  {
+    "id": 4,
+    "image": "../src/Assets/TeacherWoman.jpeg",
+    "name": "Rana Khalifa",
+    "name_fr": "Rana Khalifa",
+    "name_ar": "رنا خليفة",
+
+    "opinion": "MENDAREK has been a lifesaver during this year. The platform allowed me to continue my studies from home while i had difficulties with my teachers at class and I'm gratteful for the flexibility it provides.",
+    "opinion_fr": "MENDAREK a été une véritable bouée de sauvetage cette année. La plateforme m'a permis de continuer mes études depuis chez moi alors que j'avais des difficultés avec mes enseignants en classe, et je suis reconnaissant pour la flexibilité qu'elle offre.",
+    "opinion_ar": "من دارك كانت منقذة في هذا العام. لقد سمحت المنصة لي بمواصلة دراستي من المنزل بينما كنت أواجه صعوبات مع معلمي في القسم، وأنا ممتن للمرونة التي توفرها."
+  }
+]

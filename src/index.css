@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    /* height: 600vh; */
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Cairo', sans-serif;
+  }
+
+  p {
+    letter-spacing: 0.5px;
+    line-height: 1.6rem;
+  }
+
+  button {
+    background-color: #199fdde8 !important;
+    padding: 0.8rem 1.4rem;
+    margin-top: 1rem;
+    color: white;
+    border-radius: 4px;
+    transition: 800ms;
+  }
+
+  button:hover {
+    background-color: #0096da !important;
+  }
+
+  h1 {
+    @apply text-3xl md:text-4xl xl:text-5xl capitalize;
+  }
+
+  h6 {
+    @apply text-xl sm:text-2xl mb-2 capitalize;
+  }
+
+  label {
+    @apply text-sm;
+  }
+
+  input,
+  textarea {
+    @apply border-b-[1px] focus:border-b-third-color focus:outline-none mt-4 text-sm px-2 py-2;
+  }
+
+  .nav-link {
+    @apply mr-2 lg:mr-4 text-sm lg:text-base tracking-[1px] relative before:content-[""] before:absolute before:w-0 before:bg-third-color before:h-[2px] before:top-full before:ease-linear before:duration-300 hover:before:w-full;
+  }
+
+  .nav-link-sm {
+    @apply w-fit mb-4 text-base duration-300 hover:text-second-color;
+  }
+
+  .activeClass {
+    opacity: 1;
+    transition: 1000ms;
+  }
+
+  .nonActiveClass {
+    opacity: 0;
+    transition: 1000ms;
+  }
+
+  .textCenter {
+    text-align: center;
+    text-align: -moz-center;
+    text-align: -webkit-center;
+  }
+
+  .loginShadow {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+      rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+
+  .directionLeft {
+    direction: ltr;
+  }
+
+  .directionRight {
+    direction: rtl;
+  }
+
+  .dropdown-toggle::after {
+    margin: 0 0 !important;
+  }
+}

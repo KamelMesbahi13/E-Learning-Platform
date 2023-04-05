@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "number": 1,
+    "heading": "We replace academic support courses.",
+    "heading_fr": "Nous remplaçons les cours de soutien scolaire.",
+    "heading_ar": "نحن نحل محل دروس الدعم المدرسي.",
+    "description": "All the conditions are met on our platform for a favorable outcome of your academic year.",
+    "description_fr": "Toutes les conditions sont réunies dans notre plateforme pour un déroulement favorable de votre année scolaire.",
+    "description_ar": "تتوفر جميع الشروط في منصتنا لاكمال عامك الدراسي بنجاح."
+  },
+
+  {
+    "id": 2,
+    "number": 2,
+    "heading": "We have a very simple way of explaining",
+    "heading_fr": "Nous avons une manière très simple d'expliquer.",
+    "heading_ar": "لدينا طريقة بسيطة جداً للشرح.",
+    "description": "Thanks to our methods, we offer you simple and summarized content, studies have never been more accessible to you.",
+    "description_fr": "Grâce à nos méthodes, nous vous proposons du contenu simple et résumé, les études n'ont jamais été autant à votre portée.",
+    "description_ar": "نحن نقدم لك محتوى بسيط ومختصر بفضل منهجيتنا فالدراسة لم تكن أبداً بهذه السهولة المتاحة لك."
+  },
+
+  {
+    "id": 3,
+    "number": 3,
+    "heading": "A rich and diverse practice environment.",
+    "heading_fr": "Environnement de pratique riche et très diversifié.",
+    "heading_ar": "بيئة تدريبية غنية ومتنوعة جداً.",
+    "description": "With our series of exercises, along with solutions and subjects provided by competent teachers, you will be better equipped to solve your homework and exams flawlessly.",
+    "description_fr": "Avec nos séries d'exercices corrigés et sujets mis à votre disposition par des enseignants de compétence, vous serez mieux habilités à résoudre vos devoirs et examens d'une manière impeccable.",
+    "description_ar": "مع سلاسل التمارين المصحوبة بالحلول والمواضيع المتاحة لك من قِبَل معلمين ذوي كفاءة، ستكون مهيأ لحل واجباتك وامتحاناتك بطريقة مثالية."
+  },
+
+  {
+    "id": 4,
+    "number": 4,
+    "heading": "You'll Find Every thing, simply everything.",
+    "heading_fr": "Vous trouverez tout, simplement tout.",
+    "heading_ar": "ستجد كل شىء, دون استثناء, كل شيء",
+    "description": "We give you access to all the subjects of all academic years and all streams in one place.",
+    "description_fr": "nous vous donnons accès à la totalité des matières de toutes les années scolaires de toutes les filières en une seule place.",
+    "description_ar": "نحن نمنحك الوصول إلى جميع المواد الدراسية لجميع السنوات الدراسية وجميع التخصصات في مكان واحد."
+  },
+
+  {
+    "id": 5,
+    "number": 5,
+    "heading": "Not expensive at all.",
+    "heading_fr": "Pas du tout cher",
+    "heading_ar": "سعر تنافسي جدا",
+    "description": "Despite the large number of subjects to which you have access, the price remains symbolic and cannot be compared to any other platform of the same quality.",
+    "description_fr": "Avec le nombre de matière auxquels vous avez accès, le prix reste symbolique est n'est comparable à aucune autre plateforme de qualité.",
+    "description_ar": "بالرغم من العدد الكبير من المواد التي يمكن الوصول إليها، فإن السعر يظل رمزياً ولا يمكن مقارنته بأي منصة أخرى من نفس الجودة."
+  },
+
+  {
+    "id": 6,
+    "number": 6,
+    "heading": "Our Image",
+    "heading_fr": "Notre image.",
+    "heading_ar": " سمعتنا",
+    "description": "We have always been obligated to offer you a quality product, our objectives justify our reputation.",
+    "description_fr": "Nous avons toujours été dans l'obligation de vous offrir un produit de qualité, nos objectifs justifient notre réputation",
+    "description_ar": "كان علينا دائماً تقديم منتج ذو جودة عالية لكم، وأهدافنا تبرر سمعتنا"
+  }
+]

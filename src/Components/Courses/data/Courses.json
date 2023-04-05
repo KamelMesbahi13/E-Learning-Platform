@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "image": "../../../../src/Assets/French.jpeg",
+    "name": "French",
+    "name_fr": "francais",
+    "name_ar": "اللغة الفرنسية",
+    "description": "Avec nos vidéos vous apprendrez comment traiter les différentes questions des sujets, comprendre les leçons d'une manière extrêmement simplifiée ainsi que vous aurez droit à des astuces sur la langue française.",
+    "description_fr": "Avec nos vidéos vous apprendrez comment traiter les différentes questions des sujets, comprendre les leçons d'une manière extrêmement simplifiée ainsi que vous aurez droit à des astuces sur la langue française.",
+    "description_ar": "Avec nos vidéos vous apprendrez comment traiter les différentes questions des sujets, comprendre les leçons d'une manière extrêmement simplifiée ainsi que vous aurez droit à des astuces sur la langue française"
+  },
+
+  {
+    "id": "2",
+    "image": "../../../../src/Assets/Arabic.jpeg",
+    "name": "Arabic",
+    "name_fr": "Arabe ",
+    "name_ar": "اللغة العربية",
+    "description": "النحو، الصرف، البلاغة...كل أسس اللغة العربية و لكل الأطوار ستجده هنا",
+    "description_fr": "النحو، الصرف، البلاغة...كل أسس اللغة العربية و لكل الأطوار ستجده هنا",
+    "description_ar": "النحو، الصرف، البلاغة...كل أسس اللغة العربية و لكل الأطوار ستجده هنا"
+  },
+
+  {
+    "id": "3",
+    "image": "../../../../src/Assets/Science.jpeg",
+    "name": "Science",
+    "name_fr": "Science",
+    "name_ar": "علوم طبيعية",
+    "description": "Let's discover the secrets of nature (biology, geology, the human body...) All of this just by clicking here..",
+    "description_fr": "Découvrons les secrets de la nature ( la biologie, la géologie, le corp humain...) Tout ça juste en cliquant ici.",
+    "description_ar": "لنكتشف أسرار الطبيعة (الأحياء، الجيولوجيا، جسم الإنسان...) كل ذلك بالنقر فقط هنا"
+  },
+
+  {
+    "id": "4",
+    "image": "../../../../src/Assets/Mathematics.jpeg",
+    "name": "Mathematics",
+    "name_fr": "math",
+    "name_ar": "رياضيات",
+    "description": "Our goal is to teach you mathematical logic and make you understand that mathematics is simpler than it looks",
+    "description_fr": "Notre objectif c'est de vous enseigner la logique mathématique, et de vous faire comprendre que les mathématiques c'est plus simple que ça en a l'air.",
+    "description_ar": " هدفنا هو تعليمك المنطق الرياضي وجعلك تفهم أن الرياضيات أسهل مما تبدو."
+  },
+
+  {
+    "id": "5",
+    "image": "../../../../src/Assets/English.jpeg",
+    "name": "English",
+    "name_fr": "anglais",
+    "name_ar": "اللغة الانجليزية",
+    "description": "Let's learn and speak English together, nothing is hard when you learn with fun.",
+    "description_fr": "Let's learn and speak English together, nothing is hard when you learn with fun.",
+    "description_ar": "Let's learn and speak English together, nothing is hard when you learn with fun"
+  }
+]
