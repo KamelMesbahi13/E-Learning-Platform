@@ -1,4 +1,4 @@
-import LogoOne from './../../Assets/MyProject.png';
+import LogoOne from './../../Assets/MenDarkLogo.jpg';
 import Facebook from './../../Assets/Facebook.png';
 import Twitter from './../../Assets/Twitter.png';
 import Instagram from './../../Assets/Instagram.png';
