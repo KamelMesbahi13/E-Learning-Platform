@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useTranslation, initReactI18next } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import Teacher from './../../../Assets/teacher.png';
 import Digital from './../../../Assets/digitalization.png';

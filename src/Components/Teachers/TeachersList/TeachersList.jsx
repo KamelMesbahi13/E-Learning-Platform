@@ -7,7 +7,7 @@ import { Gmail } from '../TeachersDetails/Images';
 import { useTranslation } from 'react-i18next';
 
 const TeachersList = () => {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
 
   const teacher = TeacherData.map((teacher) => {
     if (i18n.language == 'ar') {
