@@ -24,7 +24,7 @@ const App = () => {
   return (
     <>
       <ScrollToTop>
-        {location.pathname !== '/Login' && location.pathname !== '/Sign-up' && (
+        {location.pathname !== 'Login' && location.pathname !== 'Sign-up' && (
           <Navbar />
         )}
         <Routes>
