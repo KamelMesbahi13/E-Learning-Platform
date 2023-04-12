@@ -43,7 +43,6 @@ function TranslateIcon() {
 
   useEffect(() => {
     document.body.dir = currentLanguage.dir || 'ltr';
-    document.title = t('Mendarek');
   }, [currentLanguage, t]);
 
   return (
@@ -69,8 +68,8 @@ function TranslateIcon() {
                 </span>
               </li>
               <div>
-                {languages.map(({ code, name, country_code }) => (
-                  <li key={country_code}>
+                {languages.map(({ code, name }, i) => (
+                  <li key={i}>
                     <a
                       href="#"
                       className={classNames('dropdown-item', {

@@ -1,32 +1,36 @@
-import React from 'react';
+import React, { lazy } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import ScrollToTop from './GeneralFunctions/ScrollTop';
-import {
-  AboutUs,
-  Blog,
-  BlogDetails,
-  ContactUs,
-  CourseDetails,
-  Courses,
-  Error,
-  Faq,
-  Footer,
-  Home,
-  Login,
-  Navbar,
-  SignUp,
-  Teachers,
-  TeachersDetails,
-  Up,
-} from './INDEX';
+import { Navbar } from './INDEX';
+
+const Home = lazy(() => import('./Components/Home/Home'));
+const Teachers = lazy(() => import('./Components/Teachers/Home'));
+const TeachersDetails = lazy(() =>
+  import('./Components/Teachers/TeachersDetails/TeacherDetails')
+);
+const AboutUs = lazy(() => import('./Components/About-Us/Home'));
+const SignUp = lazy(() => import('./Components/SignUp/SignUp'));
+const Login = lazy(() => import('./Components/Login/Login'));
+const Faq = lazy(() => import('./Components/Faq/Home'));
+const Footer = lazy(() => import('./Components/Footer/Footer'));
+const Blog = lazy(() => import('./Components/Blog/Home'));
+const BlogDetails = lazy(() =>
+  import('./Components/Blog/BlogDetails/BlogDetails')
+);
+const ContactUs = lazy(() => import('./Components/Contact-Us/Home'));
+const Courses = lazy(() => import('./Components/Courses/Home'));
+const CourseDetails = lazy(() =>
+  import('./Components/Courses/CourseDetails/CourseDetails')
+);
+const Error = lazy(() => import('./Components/404Error/Error'));
+const Up = lazy(() => import('./Components/Ui/Up/Up'));
 
 const App = () => {
   return (
     <>
       <ScrollToTop>
-        {location.pathname !== 'Login' && location.pathname !== 'Sign-up' && (
-          <Navbar />
-        )}
+        <Navbar />
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="our-teachers" element={<Teachers />} />
@@ -43,7 +47,7 @@ const App = () => {
           <Route path="*" element={<Error />} />
         </Routes>
         <Up />
-        {location.pathname !== 'Login' && location.pathname !== 'Sign-up' && (
+        {location.pathname !== '/Login' && location.pathname !== '/Sign-up' && (
           <Footer />
         )}
       </ScrollToTop>

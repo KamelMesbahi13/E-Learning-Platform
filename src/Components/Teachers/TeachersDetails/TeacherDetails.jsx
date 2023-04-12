@@ -76,7 +76,7 @@ const TeacherDetails = () => {
                   src={image}
                   alt={name}
                   effect="blur"
-                  className="w-48 h-48 object-cover rounded-full"
+                  className="w-48 h-48 object-cover rtl:ml-4 rounded-full"
                 ></LazyLoadImage>
               </div>
               <div className="ml-20 lg:ml-36 rtl:directionRight">

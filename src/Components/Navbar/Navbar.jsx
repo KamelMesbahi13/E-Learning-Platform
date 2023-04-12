@@ -1,17 +1,11 @@
 import React, { useState } from 'react';
-import { useTranslation, initReactI18next } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 import { TranslateIcon } from '../../INDEX';
 import LogoImg from './../../Assets/MenDarkLogo.jpg';
 
 const Navbar = () => {
-  const [windowValue, setWindowValue] = useState(false);
-
-  window.addEventListener('load', () => {
-    setWindowValue(true);
-  });
-
   const [nav, setNav] = useState(true);
 
   const navHandle = () => {
@@ -23,11 +17,7 @@ const Navbar = () => {
   return (
     <>
       <div
-        className={
-          windowValue
-            ? 'z-10 w-full relative py-1 shadow-md activeClass'
-            : 'nonActiveClass'
-        }
+        className="z-10 w-full relative py-1 shadow-md activeClass"
         name="nav"
       >
         <div className="container">

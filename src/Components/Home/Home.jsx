@@ -1,15 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { AboutUs, Best, Courses, Header, Teachers } from './INDEX';
 
 const Home = () => {
-  const [windowValue, setWindowValue] = useState(false);
-
-  window.addEventListener('load', () => {
-    setWindowValue(true);
-  });
   return (
     <>
-      <div className={windowValue ? 'activeClass' : 'nonActiveClass'}>
+      <div>
         <Header />
         <Best />
         <Courses />

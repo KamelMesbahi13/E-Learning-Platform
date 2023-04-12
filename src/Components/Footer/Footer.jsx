@@ -1,7 +1,7 @@
 import React from 'react';
 import { LogoOne, Phone, Gmail, Facebook, Twitter, Instagram } from './Images';
 import { Link } from 'react-router-dom';
-import { useTranslation, initReactI18next } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -106,7 +106,6 @@ const Footer = () => {
                   </Link>
                 </div>
               </div>
-
               <div>
                 <p>
                   Copyright <span>&#169;</span> All Rights Reserved

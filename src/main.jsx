@@ -4,10 +4,11 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import App from './App';
 import './index.css';
 import './i18n';
+import Loader from './Components/Ui/Loading/Loader';
 
 const loadingMarkup = (
   <div className="py-4 text-center">
-    <h2>Loading...</h2>
+    <Loader />
   </div>
 );
 

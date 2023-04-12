@@ -8,15 +8,10 @@ import { useTranslation } from 'react-i18next';
 
 const SignUp = () => {
   const [passwordShown, setPasswordShown] = useState(false);
-  const [windowValue, setWindowValue] = useState(false);
 
   const showPassword = () => {
     setPasswordShown(!passwordShown);
   };
-
-  window.addEventListener('load', () => {
-    setWindowValue(true);
-  });
 
   Title('Mendarek | Sign Up');
 
@@ -24,10 +19,7 @@ const SignUp = () => {
 
   return (
     <>
-      <div
-        name="Sign-up"
-        className={windowValue ? 'activeClass' : 'nonActiveClass'}
-      >
+      <div name="Sign-up">
         <div className="container">
           <div className="flex flex-col items-center lg:flex-row justify-between my-12 p-12 rounded-2xl loginShadow">
             <LazyLoadImage

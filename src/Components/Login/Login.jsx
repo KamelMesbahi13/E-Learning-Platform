@@ -9,24 +9,17 @@ import { useTranslation } from 'react-i18next';
 
 const Login = () => {
   const [passwordShown, setPasswordShown] = useState(false);
-  const [windowValue, setWindowValue] = useState(false);
 
   const showPassword = () => {
     setPasswordShown(!passwordShown);
   };
   Title('Mendarek | Login');
 
-  window.addEventListener('load', () => {
-    setWindowValue(true);
-  });
   const { t } = useTranslation();
 
   return (
     <>
-      <div
-        name="Login"
-        className={windowValue ? 'activeClass' : 'nonActiveClass'}
-      >
+      <div name="Login">
         <div className="container">
           <div>
             <div className="flex flex-col lg:flex-row justify-between my-12 rounded-2xl loginShadow">

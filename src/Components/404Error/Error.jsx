@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Image from './../../Assets/404Page.webp';
 import { Link } from 'react-router-dom';
@@ -8,16 +8,10 @@ import { useTranslation } from 'react-i18next';
 const Error = () => {
   const { t } = useTranslation();
 
-  const [windowValue, setWindowValue] = useState(false);
-
-  window.addEventListener('load', () => {
-    setWindowValue(true);
-  });
-
   Title('Mendarek | 404 Not Found');
   return (
     <>
-      <div className={windowValue ? 'activeClass' : 'nonActiveClass'}>
+      <div>
         <div>
           <div className="container">
             <div className="textCenter my-20">
