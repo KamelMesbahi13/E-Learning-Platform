@@ -80,11 +80,7 @@ const SignUp = () => {
                 <div className="text-center mt-4">
                   <p>
                     {t('have_account')}{' '}
-                    <Link
-                      className="font-semibold ml-2"
-                      target="_blank"
-                      to="/Login"
-                    >
+                    <Link className="font-semibold ml-2" to="/Login">
                       {t('login_nav')}
                     </Link>
                   </p>

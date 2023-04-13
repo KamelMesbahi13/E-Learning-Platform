@@ -3,12 +3,6 @@ module.exports = {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
-      backgroundImage: {
-        'about-us': "url('./src/Assets/AboutUs2.jpg')",
-        'contact-us': "url('./src/Assets/ContactUs.jpeg')",
-        courses: "url('./src/Assets/CoursesBack.jpg')",
-      },
-
       colors: {
         'main-color': '#fefefefe',
         'second-color': '#0096da',

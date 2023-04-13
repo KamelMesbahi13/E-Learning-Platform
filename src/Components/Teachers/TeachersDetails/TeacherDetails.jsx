@@ -95,7 +95,7 @@ const TeacherDetails = () => {
                 <h6 className="font-semibold mb-4">{t('about_me')}:</h6>
                 <p>{description}</p>
                 <div>
-                  <Link target="_blank" to={`/course-details/${id}`}>
+                  <Link to={`/course-details/${id}`}>
                     <button type="submit">{t('my_courses')}</button>
                   </Link>
                 </div>

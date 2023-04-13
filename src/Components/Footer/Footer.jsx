@@ -23,14 +23,12 @@ const Footer = () => {
               <Link
                 className="mb-4 text-sm lg:text-base tracking-widest relative before:content-[''] before:absolute before:w-0 before:bg-third-color before:h-[2px] before:top-full before:ease-linear before:duration-300 hover:before:w-full"
                 to="/"
-                target="_blank"
               >
                 {t('home_nav')}
               </Link>
               <Link
                 className="text-sm lg:text-base tracking-widest relative before:content-[''] before:absolute before:w-0 before:bg-third-color before:h-[2px] before:top-full before:ease-linear before:duration-300 hover:before:w-full"
                 to="/our-courses"
-                target="_blank"
               >
                 {t('courses_nav')}
               </Link>
@@ -38,28 +36,22 @@ const Footer = () => {
                 offset={0}
                 className="my-4 text-sm lg:text-base tracking-widest relative before:content-[''] before:absolute before:w-0 before:bg-third-color before:h-[2px] before:top-full before:ease-linear before:duration-300 hover:before:w-full"
                 to="/our-teachers"
-                target="_blank"
-              >
-                {t('teachers_nav')}
-              </Link>
+              ></Link>
               <Link
                 className="text-sm lg:text-base tracking-widest relative before:content-[''] before:absolute before:w-0 before:bg-third-color before:h-[2px] before:top-full before:ease-linear before:duration-300 hover:before:w-full"
                 to="/Blog"
-                target="_blank"
               >
                 {t('blog_nav')}
               </Link>
               <Link
                 className="my-4 text-sm lg:text-base tracking-widest relative before:content-[''] before:absolute before:w-0 before:bg-third-color before:h-[2px] before:top-full before:ease-linear before:duration-300 hover:before:w-full"
                 to="/About-us"
-                target="_blank"
               >
                 {t('about-us_nav')}
               </Link>
               <Link
                 className="text-sm lg:text-base tracking-widest relative before:content-[''] before:absolute before:w-0 before:bg-third-color before:h-[2px] before:top-full before:ease-linear before:duration-300 hover:before:w-full"
                 to="/Contact-Us"
-                target="_blank"
               >
                 {t('contact-us_nav')}
               </Link>
@@ -67,14 +59,13 @@ const Footer = () => {
               <Link
                 className="mt-4 text-sm lg:text-base tracking-widest relative before:content-[''] before:absolute before:w-0 before:bg-third-color before:h-[2px] before:top-full before:ease-linear before:duration-300 hover:before:w-full"
                 to="/Faq"
-                target="_blank"
               >
                 {t('faq_footer')}
               </Link>
             </div>
             <div className="w-full md:w-3/12">
               <h5 className="text-xl sm:text-2xl">{t('footer_paragraph')}</h5>
-              <Link to="/Sign-up" target="_blank">
+              <Link to="/Sign-up">
                 <button type="submit"> {t('Sign-up_nav')}</button>
               </Link>
             </div>

@@ -79,11 +79,7 @@ const Login = () => {
                 <div className="text-center mt-4">
                   <p>
                     {t('not_registered')}{' '}
-                    <Link
-                      className="font-semibold ml-1"
-                      target="_blank"
-                      to="/Sign-up"
-                    >
+                    <Link className="font-semibold ml-1" to="/Sign-up">
                       {t('Sign-up_nav')}
                     </Link>
                   </p>

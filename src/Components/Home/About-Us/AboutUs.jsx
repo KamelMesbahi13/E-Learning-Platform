@@ -31,7 +31,7 @@ const AboutUs = () => {
             </h1>
           </div>
           <p>{t('home_about-us_paragraph')}</p>
-          <Link to="/About-us" target="_blank">
+          <Link to="/About-us">
             <button type="submit">{t('learn_more')}</button>
           </Link>
         </div>

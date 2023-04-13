@@ -22,7 +22,7 @@ const Error = () => {
                 <h1 className="font-semibold mb-8">{t('not_found')}</h1>
                 <p>{t('not_found_paragraph')}</p>
               </div>
-              <Link to="/" target="_blank">
+              <Link to="/">
                 <button type="submit">{t('back_home')}</button>
               </Link>
             </div>

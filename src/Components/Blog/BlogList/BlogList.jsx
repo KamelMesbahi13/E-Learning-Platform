@@ -58,10 +58,7 @@ const BlogList = () => {
                           <p className="text-sm">{blog.description}</p>
                           <div className="text-second-color mt-8 flex items-center justify-center md:justify-end">
                             <div>
-                              <Link
-                                to={`/blog-details/${blog.id}`}
-                                target="_blank"
-                              >
+                              <Link to={`/blog-details/${blog.id}`}>
                                 See More
                               </Link>
                             </div>

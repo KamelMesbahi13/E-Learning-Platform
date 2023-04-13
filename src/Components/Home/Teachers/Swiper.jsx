@@ -66,7 +66,7 @@ export default function App() {
             >
               <div className="py-4">
                 <div className="">
-                  <Link to={`/our-teachers/${teacher.id}`} target="_blank">
+                  <Link to={`/our-teachers/${teacher.id}`}>
                     <LazyLoadImage
                       src={teacher.image}
                       effect="blur"
@@ -77,7 +77,7 @@ export default function App() {
                 </div>
 
                 <div>
-                  <Link to={`/our-teachers/${teacher.id}`} target="_blank">
+                  <Link to={`/our-teachers/${teacher.id}`}>
                     <h6 className="my-4 font-semibold">{teacher.name}</h6>
                   </Link>
                   <h6>{teacher.job}</h6>

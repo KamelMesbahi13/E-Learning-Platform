@@ -21,7 +21,7 @@ const Heading = () => {
               </div>
               <p>{t('text_header_home')}</p>
               <div>
-                <Link to="/our-courses" target="_blank">
+                <Link to="/our-courses">
                   <button type="submit">{t('start_now')}</button>
                 </Link>
               </div>

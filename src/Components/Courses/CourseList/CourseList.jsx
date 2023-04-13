@@ -88,7 +88,7 @@ const CoursList = () => {
                         </p>
                       </div>
                       <div>
-                        <Link to={`/course-details/${id}`} target="_blank">
+                        <Link to={`/course-details/${id}`}>
                           <button type="submit">{t('learn_more')}</button>
                         </Link>
                       </div>

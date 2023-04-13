@@ -43,7 +43,7 @@ const TeachersList = () => {
                 <div key={teacher.id}>
                   <div className="bg-main-color shadow-lg pt-8 pb-20 relative before:absolute before:w-0 before:h-1 before:transition-all before:duration-1000 before:bottom-0 before:left-0 before:bg-third-color hover:before:w-full">
                     <div>
-                      <Link to={`/our-teachers/${teacher.id}`} target="_blank">
+                      <Link to={`/our-teachers/${teacher.id}`}>
                         <LazyLoadImage
                           src={teacher.image}
                           alt={teacher.name}
