@@ -59,11 +59,13 @@ export default function App() {
           return (
             <SwiperSlide key={id} className="mt-16 pb-16 rounded border shadow">
               <div>
-                <img
+                <LazyLoadImage
                   src={image}
+                  effect="blur"
                   alt={name}
                   className="w-full aspect-[3/2] object-fill"
-                />
+                ></LazyLoadImage>
+
                 <div>
                   <h6 className="my-4 font-semibold">{name}</h6>
                   <p className="text-base w-10/12 my-0 mx-auto">
