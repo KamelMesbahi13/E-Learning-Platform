@@ -26,29 +26,29 @@ const Navbar = () => {
               <img className="w-20 lg:w-24" src={LogoImg} alt="Logo" />
             </div>
             <div className="hidden md:flex">
-              <Link className="nav-link" to="/" target="_blank">
+              <Link className="nav-link" to="/">
                 {t('home_nav')}
               </Link>
-              <Link className="nav-link" to="/our-courses" target="_blank">
+              <Link className="nav-link" to="/our-courses">
                 {t('courses_nav')}
               </Link>
-              <Link className="nav-link" to="/our-teachers" target="_blank">
+              <Link className="nav-link" to="/our-teachers">
                 {t('teachers_nav')}
               </Link>
-              <Link className="nav-link" to="/Blog" target="_blank">
+              <Link className="nav-link" to="/Blog">
                 {t('blog_nav')}
               </Link>
-              <Link className="nav-link" to="/About-us" target="_blank">
+              <Link className="nav-link" to="/About-us">
                 {t('about-us_nav')}
               </Link>
-              <Link className="nav-link" to="/Contact-Us" target="_blank">
+              <Link className="nav-link" to="/Contact-Us">
                 {t('contact-us_nav')}
               </Link>
             </div>
 
             <div className="md:flex hidden">
               <div>
-                <Link to="/Login" target="_blank">
+                <Link to="/Login">
                   <div
                     className="border-2 px-[0.5rem] py-2 lg:px-4 rounded duration-300 hover:border-second-color-opacity"
                     type="submit"
@@ -59,7 +59,7 @@ const Navbar = () => {
               </div>
 
               <div>
-                <Link to="/Sign-up" target="_blank">
+                <Link to="/Sign-up">
                   <div
                     className="bg-second-color-opacity border-2 border-second-color-opacity px-[0.5rem] py-2 lg:px-4 duration-300 text-main-color ltr:ml-4 rtl:mr-4 rounded  hover:border-second-color hover:bg-second-color"
                     type="submit"
@@ -126,7 +126,7 @@ const Navbar = () => {
             </div>
             <div className="md:flex block">
               <div>
-                <Link to="/Login" target="_blank">
+                <Link to="/Login">
                   <div
                     className="border-2 px-[0.5rem] py-2 lg:px-4 rounded text-center duration-300 hover:border-second-color-opacity"
                     type="submit"
@@ -137,7 +137,7 @@ const Navbar = () => {
               </div>
 
               <div>
-                <Link to="/Sign-up" target="_blank">
+                <Link to="/Sign-up">
                   <div
                     className="bg-second-color-opacity border-2 border-second-color-opacity px-[0.5rem] py-2 duration-300 text-main-color text-center rounded  hover:border-second-color hover:bg-second-color"
                     type="submit"
