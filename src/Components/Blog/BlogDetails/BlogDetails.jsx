@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import BlogData from './../data/BlogData.json';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
@@ -7,11 +7,6 @@ import { Title } from '../../../GeneralFunctions/title';
 import { useTranslation } from 'react-i18next';
 
 const BlogDetails = () => {
-  const [windowValue, setWindowValue] = useState(false);
-
-  window.addEventListener('load', () => {
-    setWindowValue(true);
-  });
   const { t, i18n } = useTranslation();
 
   const blogs = BlogData.map((blog) => {
@@ -45,7 +40,7 @@ const BlogDetails = () => {
   Title(`Mendarek | ${heading}`);
 
   return (
-    <div className={windowValue ? 'activeClass' : 'nonActiveClass'}>
+    <div>
       <div className="container">
         <div className="mt-20 mb-16 md:mb-32 text-center">
           <h1 className="mb-4 font-bold relative">{t('news_details')} </h1>

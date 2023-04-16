@@ -7,7 +7,7 @@ import { BsArrowRight } from 'react-icons/bs';
 import { useTranslation } from 'react-i18next';
 
 const BlogList = () => {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
 
   const blogs = BlogData.map((blog) => {
     if (i18n.language == 'ar') {
