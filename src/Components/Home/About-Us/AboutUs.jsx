@@ -23,7 +23,7 @@ const AboutUs = () => {
   return (
     <>
       <div className="container">
-        <div className="w-full xl:px-16 mt-20 lg:w-10/12">
+        <div className="w-full xl:px-16 mt-0 md:mt-20 lg:w-10/12">
           <div className="mb-4 font-bold relative before:absolute before:hidden before:xl:block before:h-2 before:w-12 rtl:before:left-[56rem] ltr:before:-left-16 before:bg-third-color before:top-[1.2rem]">
             <h1 className="mb-2">
               {t('home_about-us_heading')} <br />{' '}
