@@ -11,7 +11,7 @@ const Heading = () => {
 
   return (
     <>
-      <div className="mt-20">
+      <div className="md:mt-20 mt-4">
         <div className="container">
           <div className="flex flex-col items-center lg:flex-row">
             <div className="w-full lg:w-4/6">

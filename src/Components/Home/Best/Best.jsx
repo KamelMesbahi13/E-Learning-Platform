@@ -11,7 +11,7 @@ const Best = () => {
 
   return (
     <>
-      <div className="mt-24 rtl:my-40">
+      <div className="mt-24 rtl:md:my-40 rtl:my-20">
         <div className="container">
           <div className="flex flex-col-reverse items-center lg:flex-row">
             <div className="mt-8">
