@@ -53,7 +53,7 @@ const BlogDetails = () => {
             <h1>{heading}</h1>
           </div>
           <div className="mt-4">
-            <div className="w-1/2">
+            <div className="w-full md:w-1/2">
               <p>{introduction}</p>
             </div>
             <p className="mt-8">

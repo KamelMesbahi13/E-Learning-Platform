@@ -41,7 +41,11 @@ const WhyUs = () => {
 
   return (
     <>
-      <div className={windowValue ? 'mt-20 activeClass' : 'nonActiveClass'}>
+      <div
+        className={
+          windowValue ? 'md:mt-20 mt-12 activeClass' : 'nonActiveClass'
+        }
+      >
         <div className="container">
           <div className="w-full ltr:ml-0 mt-8">
             <div className="mb-4 font-bold px-16 relative before:absolute before:hidden before:xl:block before:h-2 before:w-12 rtl:before:left-[73rem] ltr:before:left-0 before:bg-third-color before:top-[1.2rem]">
