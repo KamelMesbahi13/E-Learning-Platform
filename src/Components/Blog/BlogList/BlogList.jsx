@@ -50,10 +50,10 @@ const BlogList = () => {
                               alt={blog.heading}
                               effect="blur"
                               className="w-full md:w-[17rem] md:h-[14rem] object-cover rounded"
-                            ></LazyLoadImage>
+                            />
                           </div>
                         </div>
-                        <div className="w-full text-left mt-4 md:mt-0 pb-8 md:ml-8 md:w-1/2">
+                        <div className="w-full px-4 mt-4 md:mt-0 pb-8 md:ml-8 md:w-1/2">
                           <h6 className="font-semibold">{blog.heading}</h6>
                           <p className="text-sm">{blog.description}</p>
                           <div className="text-second-color mt-8 flex items-center justify-center md:justify-end">

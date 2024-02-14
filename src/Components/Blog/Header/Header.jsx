@@ -11,7 +11,7 @@ const Header = () => {
       <div>
         <div>
           <div className="container">
-            <div className="mt-20 mb-16 md:mb-32 text-center">
+            <div className="md:mt-20 mt-8 mb-8 md:mb-32 text-center">
               <h1 className="font-bold">
                 {t('latest_news_one')} <br /> {t('latest_news_two')}
               </h1>
