@@ -30,7 +30,6 @@ const App = () => {
     <>
       <ScrollToTop>
         <Navbar />
-
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/our-teachers" element={<Teachers />} />
