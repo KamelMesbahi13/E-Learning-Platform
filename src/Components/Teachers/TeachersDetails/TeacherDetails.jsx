@@ -76,7 +76,7 @@ const TeacherDetails = () => {
                   src={image}
                   alt={name}
                   effect="blur"
-                  className="md:w-48 md:h-48 w-28 h-28 object-cover rtl:ml-4 rounded-full"
+                  className="md:w-48 mb-8 md:mb-0 md:h-48 w-28 h-28 object-cover rtl:ml-4 rounded-full"
                 />
               </div>
               <div className="rtl:mr-4 ml-20 w-full lg:ml-36 rtl:directionRight">
