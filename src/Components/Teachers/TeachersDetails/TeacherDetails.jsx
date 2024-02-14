@@ -70,16 +70,16 @@ const TeacherDetails = () => {
       <div className="container">
         <div className="shadow-xl rounded-xl mb-20">
           <div>
-            <div className="flex items-center mt-20 p-12">
+            <div className="flex flex-col md:flex-row items-center mt-20 p-12">
               <div>
                 <LazyLoadImage
                   src={image}
                   alt={name}
                   effect="blur"
-                  className="w-48 h-48 object-cover rtl:ml-4 rounded-full"
-                ></LazyLoadImage>
+                  className="md:w-48 md:h-48 w-28 h-28 object-cover rtl:ml-4 rounded-full"
+                />
               </div>
-              <div className="ml-20 lg:ml-36 rtl:directionRight">
+              <div className="rtl:mr-4 ml-20 w-full lg:ml-36 rtl:directionRight">
                 <h6 className="font-semibold text-xl md:text-2xl lg:text-3xl m-0">
                   {name}
                 </h6>
