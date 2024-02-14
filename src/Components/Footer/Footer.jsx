@@ -2,6 +2,7 @@ import React from 'react';
 import { LogoOne, Phone, Gmail, Facebook, Twitter, Instagram } from './Images';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -9,14 +10,16 @@ const Footer = () => {
   return (
     <>
       <div className="border-t-2 border-third-color">
-        <div className="container">
-          <div className="flex flex-col md:flex-row items-center py-12">
-            <div className="w-full md:w-3/12">
-              <img
+        <div className="container flex">
+          <div className="flex flex-col md:flex-row items-center py-4 md:py-12">
+            <div className="w-6/12 mx-auto md:w-3/12">
+              <LazyLoadImage
                 src={LogoOne}
-                className="md:w-5/12 mx-auto md:mx-0 w-6/12 my-0"
+                className="md:w-5/12 mx-auto md:mx-0 w-12/12 my-0"
                 alt="Logo"
               />
+            </div>
+            <div>
               <p>{t('text_header_home')}</p>
             </div>
             <div className="flex flex-col my-8 md:my-0 justify-center items-center w-full md:w-6/12">
@@ -36,7 +39,9 @@ const Footer = () => {
                 offset={0}
                 className="my-4 text-sm lg:text-base tracking-widest relative before:content-[''] before:absolute before:w-0 before:bg-third-color before:h-[2px] before:top-full before:ease-linear before:duration-300 hover:before:w-full"
                 to="/our-teachers"
-              ></Link>
+              >
+                {t('teachers_nav')}
+              </Link>
               <Link
                 className="text-sm lg:text-base tracking-widest relative before:content-[''] before:absolute before:w-0 before:bg-third-color before:h-[2px] before:top-full before:ease-linear before:duration-300 hover:before:w-full"
                 to="/Blog"
