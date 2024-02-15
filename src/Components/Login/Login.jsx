@@ -45,7 +45,12 @@ const Login = () => {
                 <form>
                   <div>
                     <label htmlFor="email">{t('email')}</label> <br />
-                    <input type="email" name="email" placeholder={t('email')} />
+                    <input
+                      className="w-3/4 md:w-full"
+                      type="email"
+                      name="email"
+                      placeholder={t('email')}
+                    />
                   </div>
                   <div className="my-4">
                     <div>
@@ -53,6 +58,7 @@ const Login = () => {
                     </div>
                     <div className="flex items-center">
                       <input
+                        className="w-3/4 md:w-full"
                         type={passwordShown ? 'text' : 'password'}
                         name="password"
                         placeholder={t('password')}

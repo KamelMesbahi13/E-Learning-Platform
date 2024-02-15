@@ -26,7 +26,7 @@ const SignUp = () => {
               src={Image}
               className="lg:w-1/2 sm:block hidden"
               alt="Sign Up"
-            ></LazyLoadImage>
+            />
             <div className="lg:w-1/2 w-full mt-8 lg:mt-0 rtl:lg:pr-20 ltr:lg:pl-20 directionLeft">
               <h1 className="">
                 {t('welcome_to')}{' '}
@@ -42,12 +42,18 @@ const SignUp = () => {
                 <form>
                   <div>
                     <label htmlFor="email">{t('email')}</label> <br />
-                    <input type="email" name="email" placeholder={t('email')} />
+                    <input
+                      className="w-3/4 md:w-full"
+                      type="email"
+                      name="email"
+                      placeholder={t('email')}
+                    />
                   </div>
                   <div className="my-4">
                     <label htmlFor="password">{t('password')}</label>{' '}
                     <div className="flex items-center">
                       <input
+                        className="w-3/4 md:w-full"
                         type={passwordShown ? 'text' : 'password'}
                         name="password"
                         placeholder={t('password')}
@@ -63,6 +69,7 @@ const SignUp = () => {
                     <label htmlFor="password">{t('confirm_password')}</label>
                     <br />
                     <input
+                      className="w-3/4 md:w-full"
                       type="password"
                       name="confirm password"
                       placeholder={t('confirm_password')}
