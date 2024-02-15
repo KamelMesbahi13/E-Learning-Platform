@@ -1,20 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Data from './../../../Why-Us.json';
 import { useTranslation } from 'react-i18next';
 
 const WhyUs = () => {
-  const [windowValue, setWindowValue] = useState(false);
-  const activeClass = window.addEventListener('scroll', () => {
-    if (window.scrollY > 670) {
-      setWindowValue(true);
-    }
-  });
-
-  useEffect(() => {
-    window.addEventListener('scroll', activeClass);
-    return window.removeEventListener('scroll', activeClass);
-  }, []);
-
   const { t, i18n } = useTranslation();
 
   const data = Data.map((data) => {
