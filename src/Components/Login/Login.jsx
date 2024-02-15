@@ -4,7 +4,6 @@ import Image from './../../Assets/loginTwo.png';
 import { Link } from 'react-router-dom';
 import { AiOutlineEye } from 'react-icons/ai';
 import { Title } from '../../GeneralFunctions/title';
-
 import { useTranslation } from 'react-i18next';
 
 const Login = () => {

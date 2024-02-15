@@ -88,8 +88,8 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? 'absolute duration-500 rtl:-right-[140%] ltr:right-[110%] p-4 w-full h-[150vh]'
-              : 'absolute duration-500 rtl:right-0 ltr:right-0 w-full bg-main-color h-[150vh] p-4'
+              ? 'relative duration-500 opacity-0 p-4 w-full h-[0vh]'
+              : 'relative duration-500 opacity-100 w-full bg-main-color h-[150vh] p-4'
           }
         >
           <div>
