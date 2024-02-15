@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <>
       <div className="border-t-2 border-third-color">
-        <div className="container flex">
+        <div className="container flex md:block">
           <div className="flex flex-col md:flex-row items-center py-4 md:py-12">
             <div className="w-6/12 mx-auto md:w-3/12">
               <LazyLoadImage
@@ -18,8 +18,6 @@ const Footer = () => {
                 className="md:w-5/12 mx-auto md:mx-0 w-12/12 my-0"
                 alt="Logo"
               />
-            </div>
-            <div>
               <p>{t('text_header_home')}</p>
             </div>
             <div className="flex flex-col my-8 md:my-0 justify-center items-center w-full md:w-6/12">

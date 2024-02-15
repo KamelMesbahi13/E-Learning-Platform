@@ -1,23 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import Teacher from './../../../Assets/teacher.png';
 import Digital from './../../../Assets/digitalization.png';
 import LowCoast from './../../../Assets/low-cost.png';
+import { motion } from 'framer-motion';
 
 const AboutUs = () => {
-  const [windowValue, setWindowValue] = useState(false);
-  const activeClass = window.addEventListener('scroll', () => {
-    if (window.scrollY > 2650) {
-      setWindowValue(true);
-    }
-  });
-
-  useEffect(() => {
-    window.addEventListener('scroll', activeClass);
-    return window.removeEventListener('scroll', activeClass);
-  }, []);
-
   const { t } = useTranslation();
 
   return (
@@ -39,12 +28,16 @@ const AboutUs = () => {
       <div className="bg-gray-color py-16 w-full mt-8">
         <div className="container">
           <div className="flex flex-col lg:flex-row">
-            <div
-              className={
-                windowValue
-                  ? 'textCenter bg-main-color p-12 rounded shadow relative w-full duration-[1400ms] top-0'
-                  : 'textCenter bg-main-color p-12 rounded shadow relative w-full duration-[1400ms] top-48'
-              }
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0.5 }}
+              variants={{
+                hidden: { opacity: 0, y: -150 },
+                visible: { opacity: 1, y: 0 },
+              }}
+              className="textCenter bg-main-color p-12 rounded shadow relative w-full"
             >
               <div>
                 <img src={Teacher} className="w-[60px]" alt="teacher" />
@@ -55,14 +48,18 @@ const AboutUs = () => {
                   <p>{t('about-us_best-teachers_paragraph_best_teachers')}</p>
                 </div>
               </div>
-            </div>
+            </motion.div>
 
-            <div
-              className={
-                windowValue
-                  ? 'textCenter bg-main-color p-12 rounded shadow relative w-full duration-[1700ms] top-0 my-8 lg:my-0 lg:mx-8'
-                  : 'textCenter bg-main-color p-12 rounded shadow relative w-full duration-[1700ms] top-48'
-              }
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0.8 }}
+              variants={{
+                hidden: { opacity: 0, y: -150 },
+                visible: { opacity: 1, y: 0 },
+              }}
+              className="textCenter bg-main-color p-12 rounded shadow relative w-full my-8 lg:my-0 lg:mx-8"
             >
               {' '}
               <div>
@@ -76,14 +73,18 @@ const AboutUs = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </motion.div>
 
-            <div
-              className={
-                windowValue
-                  ? 'textCenter bg-main-color p-12 rounded shadow relative w-full duration-[2000ms] top-0'
-                  : 'textCenter bg-main-color p-12 rounded shadow relative w-full duration-[2000ms] top-48'
-              }
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 1.1 }}
+              variants={{
+                hidden: { opacity: 0, y: -150 },
+                visible: { opacity: 1, y: 0 },
+              }}
+              className="textCenter bg-main-color p-12 rounded shadow relative w-full"
             >
               {' '}
               <div>
@@ -95,7 +96,7 @@ const AboutUs = () => {
                   {t('about-us_best-teachers_paragraph_low_coast')}
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
