@@ -66,16 +66,6 @@
     @apply w-fit mb-4 text-base duration-300 hover:text-second-color;
   }
 
-  .activeClass {
-    opacity: 1;
-    transition: 1000ms;
-  }
-
-  .nonActiveClass {
-    opacity: 0;
-    transition: 1000ms;
-  }
-
   .textCenter {
     text-align: center;
     text-align: -moz-center;

@@ -24,7 +24,7 @@ const Login = () => {
           <div>
             <div className="flex flex-col lg:flex-row justify-between my-12 rounded-2xl loginShadow">
               <div className="bg-gray-color lg:w-1/2 p-12">
-                <h1 className="text-4xl">
+                <h1 className="md:text-4xl text-3xl">
                   <span className="text-second-color font-semibold">
                     {t('header_title')}
                   </span>{' '}

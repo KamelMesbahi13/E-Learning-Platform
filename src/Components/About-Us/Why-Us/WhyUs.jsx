@@ -1,6 +1,7 @@
 import React from 'react';
 import Data from './../../../Why-Us.json';
 import { useTranslation } from 'react-i18next';
+import { motion } from 'framer-motion';
 
 const WhyUs = () => {
   const { t, i18n } = useTranslation();
@@ -29,10 +30,16 @@ const WhyUs = () => {
 
   return (
     <>
-      <div
-        className={
-          windowValue ? 'md:mt-20 mt-12 activeClass' : 'nonActiveClass'
-        }
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 0.5 }}
+        variants={{
+          hidden: { opacity: 0, y: -150 },
+          visible: { opacity: 1, y: 0 },
+        }}
+        className="md:mt-20 mt-12"
       >
         <div className="container">
           <div className="w-full ltr:ml-0 mt-8">
@@ -61,7 +68,7 @@ const WhyUs = () => {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 };
