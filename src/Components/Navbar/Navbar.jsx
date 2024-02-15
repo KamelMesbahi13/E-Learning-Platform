@@ -88,7 +88,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? 'relative duration-500 opacity-0 p-4 w-full h-[0vh]'
+              ? 'relative duration-500 opacity-0 w-full h-[0vh]'
               : 'relative duration-500 opacity-100 w-full bg-main-color h-[150vh] p-4'
           }
         >
@@ -100,9 +100,13 @@ const Navbar = () => {
               <Link className="nav-link-sm" onClick={navHandle} to="/">
                 {t('home_nav')}
               </Link>
-              <a className="nav-link-sm" onClick={navHandle} to="/our-courses">
+              <Link
+                className="nav-link-sm"
+                onClick={navHandle}
+                to="/our-courses"
+              >
                 {t('courses_nav')}
-              </a>
+              </Link>
               <Link
                 className="nav-link-sm"
                 onClick={navHandle}
@@ -128,6 +132,7 @@ const Navbar = () => {
               <div>
                 <Link to="/Login">
                   <div
+                    onClick={navHandle}
                     className="border-2 px-[0.5rem] py-2 lg:px-4 rounded text-center duration-300 hover:border-second-color-opacity"
                     type="submit"
                   >
@@ -139,6 +144,7 @@ const Navbar = () => {
               <div>
                 <Link to="/Sign-up">
                   <div
+                    onClick={navHandle}
                     className="bg-second-color-opacity border-2 border-second-color-opacity px-[0.5rem] py-2 duration-300 text-main-color text-center rounded  hover:border-second-color hover:bg-second-color"
                     type="submit"
                   >
