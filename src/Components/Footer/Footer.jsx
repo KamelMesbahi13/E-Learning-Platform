@@ -6,10 +6,9 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Footer = () => {
   const { t } = useTranslation();
-
   return (
     <>
-      <div className="border-t-2 border-third-color">
+      <div className="border-t-2 border-third-color mt-4">
         <div className="container flex md:block">
           <div className="flex flex-col md:flex-row items-center py-4 md:py-12">
             <div className="w-6/12 mx-auto md:w-3/12">
